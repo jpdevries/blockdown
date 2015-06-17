@@ -1,0 +1,6 @@
+++ blockdown 0.1.0-pl
+++ Released on 2015-06-16
++++++++++++++++++++++++++
+- Initial Release
+- Adds EpicEditor Markdown Editor to ContentBlocks
+

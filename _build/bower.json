@@ -1,0 +1,32 @@
+{
+  "name": "blockdown",
+  "version": "0.1.0",
+  "authors": [
+    "JP DeVries <mail@devries.jp>"
+  ],
+  "description": "EpicEditor for ContentBlocks",
+  "main": "_build/transport.php",
+  "keywords": [
+    "epiceditor",
+    "markdown",
+    "contentblocks",
+    "modmore",
+    "modx"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jpdevries/blockdown",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "EpicEditor": "~0.2.3"
+  },
+  "exportsOverride": {
+      "EpicEditor": {
+        "": "./epiceditor/"
+      }
+    }
+}
