@@ -11,15 +11,7 @@ Once installing blockdown via the MODX Package Manager you'll be able to create 
  - HTML preview
 
 ## Installation
-Upload the latest release to your `core/packages` folder and visit the MODX Package Manager page to search locally for packages. Then install blockdown.
-
-```bash
-cd modx/core/packages
-wget http://jpdevries.s3.amazonaws.com/modx/packages/blockdown/blockdown-0.1.0-pl.transport.zip
-```
-
-## Releases
- - [0.1.0-pl](http://jpdevries.s3.amazonaws.com/modx/packages/blockdown/blockdown-0.1.0-pl.transport.zip)
+Install this free Extra via the [modmore Package Provider](https://www.modmore.com/about/package-provider/).
 
 ## Configuration
 You can choose from two editor themes
