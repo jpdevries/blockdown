@@ -51,13 +51,13 @@ class blockDownInput extends cbBaseInput {
     }
 
     public function getName() {
-        $this->modx->log(modX::LOG_LEVEL_ERROR,"getName\n");
+        //$this->modx->log(modX::LOG_LEVEL_ERROR,"getName\n");
         return 'Blockdown Input'; 
         // return $this->modx->lexicon('blockdown.input_name');
     }
     
     public function getDescription() {
-        $this->modx->log(modX::LOG_LEVEL_ERROR,"getDescription\n");
+        //$this->modx->log(modX::LOG_LEVEL_ERROR,"getDescription\n");
         return 'With Blockdown Input you can manage awesome content awesomely.'; 
         // return $this->modx->lexicon('blockdown.input_description');
     }
@@ -67,7 +67,7 @@ class blockDownInput extends cbBaseInput {
      */
     public function getJavaScripts() {
         $assetsUrl = $this->modx->getOption('blockdown.assets_url', null, MODX_ASSETS_URL . 'components/blockdown/');
-        $this->modx->log(modX::LOG_LEVEL_ERROR,"getJavaScripts\n");
+        //$this->modx->log(modX::LOG_LEVEL_ERROR,"getJavaScripts\n");
         return array(
             $assetsUrl . 'js/vendor/epiceditor/js/epiceditor.js',
             $assetsUrl . 'js/inputs/blockdown.js',
@@ -78,7 +78,7 @@ class blockDownInput extends cbBaseInput {
      * @return array
      */
     public function getTemplates() {
-        $this->modx->log(modX::LOG_LEVEL_ERROR,"getTemplates\n");
+        //$this->modx->log(modX::LOG_LEVEL_ERROR,"getTemplates\n");
         $tpls = array();
         
         // Grab the template from a .tpl file

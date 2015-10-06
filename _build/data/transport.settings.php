@@ -1,6 +1,8 @@
 <?php
 
-$settingSource = include dirname(__FILE__).'/settings.php';
+$settingSource = array(
+    
+);
 
 $settings = array();
 
