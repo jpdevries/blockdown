@@ -21,6 +21,7 @@
                     theme:theme,
                     focusOnLoad:true,
                     autoSave:false,
+                    autogrow:true,
                     localStorageName:data.generated_id
                 }).load(function(){
                     $(document.getElementById(data.generated_id + '_textarea')).hide();
